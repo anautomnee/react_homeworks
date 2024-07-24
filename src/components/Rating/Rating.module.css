@@ -1,0 +1,13 @@
+.ratingDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ratingDiv img {
+    margin-bottom: 20px;
+}
+
+.ratingDiv select {
+    padding: 4px 6px;
+}
