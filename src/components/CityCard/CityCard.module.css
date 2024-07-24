@@ -1,0 +1,38 @@
+.card {
+    width: 800px;
+    background-color: #E3D0D7;
+    color: #8A3349;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #8A3349;
+    padding: 18px 48px;
+}
+
+
+.imgContainer {
+    height: 400px;
+}
+
+.imgContainer img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.description {
+    
+    max-width: 600px;
+}
+
+.list {
+    margin: 8px 0;
+    list-style-type: "🌸";
+    max-width: 580px;
+}
+
+.list li {
+    padding-left: 10px;
+  }
+  

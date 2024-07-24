@@ -1,0 +1,22 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    color: #8A3349;
+}
+
+.select {
+    width: 120px;
+    height: 32px;
+    padding-left: 6px;
+    color: #8A3349;
+    border: 1px solid #8A3349;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+.select:focus {
+    outline: 1px solid #8A3349;
+}
