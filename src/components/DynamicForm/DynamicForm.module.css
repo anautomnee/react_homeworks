@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.inputLabel {
+  margin-top: 14px;
+}
+
+.inputField {
+  height: 32px;
+  border-radius: 4px;
+  padding: 4px 8px;
+  border: 1px solid gray;
+}
+
+.submitBtn {
+  margin-top: 14px;
+  height: 36px;
+  background-color: #027bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.errorMsg {
+  color: red;
+}
+
+.submitMsg {
+  color: green;
+  margin-top: 14px;
+  align-self: center;
+}
