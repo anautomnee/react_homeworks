@@ -1,0 +1,39 @@
+.smallCard {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.smallCard img {
+  width: 180px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.innerContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.textwrapper {
+  max-width: 480px;
+}
+
+.text {
+  font-size: 14px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: none;
+  -webkit-box-orient: vertical;
+}
+
+.category {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.header,
+.category {
+  margin: 0;
+}

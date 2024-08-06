@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+}
+
+.container li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
